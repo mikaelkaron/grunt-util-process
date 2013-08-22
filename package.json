@@ -1,7 +1,7 @@
 {
 	"name": "grunt-util-process",
 	"description": "Grunt util for processing values in an object",
-	"version": "0.0.1",
+	"version": "0.0.2-0",
 	"author": {
 		"name": "Mikael Karon",
 		"email": "mikael@karon.se"
