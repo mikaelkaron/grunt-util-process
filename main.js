@@ -14,7 +14,7 @@ module.exports = function(grunt) {
 	return function (options) {
 		var me = this;
 
-		_.each(_.rest(arguments), function (key) {
+		_.each(_.tail(arguments), function (key) {
 			var value = me[key];
 
 			if (grunt.util.kindOf(value) === "string") {
